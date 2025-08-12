@@ -1,0 +1,94 @@
+
+/* import font family*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=Fjalla+One&family=Nata+Sans:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* End import font family*/
+
+/* General styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-color:#FEF2F2;
+    justify-content: center;
+    align-items: center;
+}
+/* End General styles*/
+
+/* Playlist container styles*/
+.playlist_container{
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: block;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+.music_name{
+    padding:15vh 15px 9px;
+    align-items: center;
+    text-align: center;
+}
+.artist_name{
+    align-items: center;
+    text-align: center;
+    font-size: 1.02em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.time{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.progress{
+    width: 65vh;
+    background-color: gray;
+    margin: 20px;
+    cursor: pointer;
+}
+.time span{
+    font-size: 1.2em;
+    text-align: center;
+    align-items: center;
+}
+.controles{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.controles img{
+    width: 30px;
+    height: 30px;
+}
+#previous{
+    margin-right: 40px;
+    cursor: pointer;
+}
+#next{
+    margin-left: 40px;
+    cursor: pointer;
+}
+.controles_music{
+    margin-left: 25%;
+}
+.sound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sound img{
+    cursor: pointer;
+}
+.sound input{
+    width: 70px;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+/* End Playlist container styles*/
